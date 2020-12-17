@@ -23,3 +23,12 @@ th {
    border: 1px solid maroon;
    /* Параметры рамки */
 }
+.aa {
+   width: 35px;
+  height: 35px;
+   border: 2px solid white;
+  
+  border-radius: 100%;
+  border-top: 6px solid white;
+  background: white
+}
