@@ -1,0 +1,25 @@
+.header {
+   /* background-image: url(/img/header/header.png) auto auto*/
+   background: url(/img/header/header.png) no-repeat;
+   height: 1000px;
+
+}
+
+.table {
+   width: 300px;
+   margin: auto;
+   /* Выравниваем таблицу по центру окна  */
+   /* Ширина таблицы */
+   border-collapse: collapse;
+   /* Убираем двойные линии между ячейками */
+   border: 2px solid white;
+   /* Прячем рамку вокруг таблицы */
+}dsadsa
+
+td,
+th {
+   padding: 10px 20px;
+   /* Поля вокруг содержимого таблицы */
+   border: 1px solid maroon;
+   /* Параметры рамки */
+}
