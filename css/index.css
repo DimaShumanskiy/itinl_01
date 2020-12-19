@@ -1,5 +1,15 @@
-.header {
-   /* background-image: url(/img/header/header.png) auto auto*/
+@font-face {
+   font-family: Pompadur; /* Имя шрифта */
+   src: url(fonts/pompadur.ttf); /* Путь к файлу со шрифтом */
+
+
+
+
+
+
+
+/* .header {
+   /* background-image: url(/img/header/header.png) auto auto
    background: url(/img/header/header.png) no-repeat;
    height: 1000px;
 
@@ -8,20 +18,20 @@
 .table {
    width: 300px;
    margin: auto;
-   /* Выравниваем таблицу по центру окна  */
-   /* Ширина таблицы */
+   /* Выравниваем таблицу по центру окна  
+   /* Ширина таблицы 
    border-collapse: collapse;
-   /* Убираем двойные линии между ячейками */
+   /* Убираем двойные линии между ячейками 
    border: 2px solid white;
-   /* Прячем рамку вокруг таблицы */
-}dsadsa
+   /* Прячем рамку вокруг таблицы 
+
 
 td,
 th {
    padding: 10px 20px;
-   /* Поля вокруг содержимого таблицы */
+   /* Поля вокруг содержимого таблицы 
    border: 1px solid maroon;
-   /* Параметры рамки */
+   /* Параметры рамки 
 }
 .aa {
    width: 35px;
@@ -31,4 +41,5 @@ th {
   border-radius: 100%;
   border-top: 6px solid white;
   background: white
-}
+} 
+*/
