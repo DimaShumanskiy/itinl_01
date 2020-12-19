@@ -1,0 +1,70 @@
+
+@font-face {
+   font-family: Mili-Regular;
+   src: url(/assets/fonts/Muli-Regular.woff);
+}
+
+@font-face {
+   font-family: Muli-Bold;
+   src: url(/assets/fonts/Muli-Bold.woff);
+}
+
+@font-face {
+   font-family: Muli-ExtraBold;
+   src: url(/assets/fonts/Muli-ExtraBold.woff);
+}
+
+@font-face {
+   font-family: Muli-ExtraBoldItalic;
+   src: url(/assets/fonts/Muli-ExtraBoldItalic.woff);
+}
+
+@font-face {
+   font-family: Poppins-Medium;
+   src: url(/assets/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+   font-family: Poppins-SemiBold;
+   src: url(/assets/fonts/Poppins-SemiBold.ttf);
+}
+
+html {
+   font-family: Mili-Regular;
+   
+}
+
+.text--bold {
+   font-family: Muli-Bold;
+}
+
+.text--extrabold {
+   font-family: Muli-ExtraBold;
+}
+
+.text--extrabold-italic {
+   font-family: Muli-ExtraBoldItalic;
+}
+.text--italic{
+   font-style: italic;
+}
+
+.text--black {
+   color: black;
+}
+
+.text--yelow {
+   color: #f7ae3b;
+}
+
+.text--brown {
+   color: #6d450c;
+}
+
+.text--red {
+   color: #f2612d;
+}
+
+.text--green {
+   color:#cae941;
+}
