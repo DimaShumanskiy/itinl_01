@@ -1,15 +1,202 @@
 
-
+/*header*/
 .header{
    background: url(/img/header/header.png);
+   height: 1080px;
+}
+.header__top-inner{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding-top: 75px;
+}
+.menu__list{
+   display: flex;
+   flex-direction: row;
+   text-transform: uppercase;
+   margin-left: 100px;
+}
+.menu__item{
+   margin-left: 35px;
+}
+.menu__link{
+   color:white;
+}
+.personal__list{
+   display:flex;
+   flex-direction: row;
+   align-items: center;
+}
+.personal__list-item{
+   margin-left: 50px;
+}
+.personal__cart-count{
+   font-size: 10px;
+   color: black;
+   display: inline-block;
+   width: 18px;
+   height: 18px;
+   border-radius: 50px;
+   -webkit-border-radius: 50px;
+   -moz-border-radius: 50px;
+   -ms-border-radius: 50px;
+   -o-border-radius: 50px;
+   line-height: 18px;
+   text-align: center;
+   background-color:white   ;
+}
+.social__list{
+   display: flex;
+   flex-direction: row;
+   margin-right: 100px;
+}
+.social__list-item{
+   margin-right: 35px;
+}
+.social__link {
+   display: inline-block;
+   width: 35px;
+   height: 35px;
+   border-radius:50px;
+   -webkit-border-radius:50px;
+   -moz-border-radius:50px;
+   -ms-border-radius:50px;
+   -o-border-radius:50px;
+   line-height: 41px;
+   text-align: center;
+   background-color:white;
 }
 
- /*{
-      width: 35px;
-      height: 35px;
-      border: 2px solid white;
-      display: inline-block;
-      border-radius: 100%;
+.header__btn-wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 110px;
+}
+.header_btn{
+   width: 280px;
+   height: 70px;
+   font-size: 16pt;
+   border-width: 0px;
+}
+/*smoothies*/
+.smoothies{ 
+   height: 870px;
+   text-align: center;
+   display: flex;
+   
+   align-items: center;
+   flex-direction: column;
+   
+}
+.smoothies-top{
+}
+.smoothies__title{
+   font-size: 50px; 
+   letter-spacing: 0px;
+   margin-top: 100px;
+   line-height: 40px;
+   
+}
+.smoothies__description{ 
+   width: 915px;
+   height: 122px; 
+   line-height: 35px;
+   font-size: 18px;
+   letter-spacing: 0px;
+   
+}
+.smoothies__table{
+   margin-top: 60px;
+   border-collapse: collapse; 
+   border: 2px solid white;
+}
 
-    
-   }*/
+th, 
+td{
+   font-size: 25px;
+   line-height: 40px;
+   width: 240px;
+   height: 180px;
+   border: 1px solid #f6edde;
+}
+
+/*about*/
+
+.about{
+   background-color:#158773;
+   height: 800px;
+   display: flex;
+   justify-content: center;
+}
+.about-img__content{
+   z-index: 1;
+   /*!!!!!*/
+
+}
+.about__title{
+   width: 611px;
+   font-size: 55px;
+   line-height: 60px;
+   margin-bottom: 0px;
+}
+.about__title-line{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+.about__list{ 
+   list-style-image: url(/img/about/icons\ about.png);
+   font-size: 21px;
+   height: 330px;
+   margin-bottom: 55px;
+   margin-left: 25px;
+}
+.about__list-item{ 
+   padding-left: 20px;
+   margin-bottom: 22px;
+}
+.about__btn{
+   width: 380px;
+   height: 60px;
+   border: 2px solid #f8b231;
+   font-size: 21px;
+}
+/*products*/
+.products{
+   height: 720px;
+}
+.products__list{
+   margin-top: 0;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.products__item{
+   width: 480px;
+   height: 720px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.products--dark{
+   background-color:#662d16;
+}
+.products--vegan{
+   background-color:#15876d;
+}
+.products--lemon{
+   background-color:#f5af3a;
+}
+.products--turmeric{
+   background-color: #c54c19;
+}
+/*our-story*/
+.our-story{
+}
+.our-story__inner{
+   display: flex;
+   justify-content: space-between;
+   align-items:center;
+}

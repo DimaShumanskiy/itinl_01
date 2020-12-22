@@ -1,6 +1,6 @@
 
 @font-face {
-   font-family: Mili-Regular;
+   font-family: Muli-Regular;
    src: url(/assets/fonts/Muli-Regular.woff);
 }
 
@@ -29,9 +29,10 @@
    src: url(/assets/fonts/Poppins-SemiBold.ttf);
 }
 
-html {
-   font-family: Mili-Regular;
-   
+html,
+body {
+   font-family: Muli-Regular;
+   color:white;
 }
 
 .text--bold {
@@ -67,4 +68,26 @@ html {
 
 .text--green {
    color:#cae941;
+}
+.btn {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 60px;
+   border-radius: 35px;
+   -webkit-border-radius: 35px;
+   -moz-border-radius: 35px;
+   -ms-border-radius: 35px;
+   -o-border-radius: 35px;
+}
+.btn--green{
+   background-color: #158773;
+   color:white;
+}
+.products__btn{
+   font-size: 21px;
+   width: 205px;
+   color: white;
+   border: 2px solid white;
+   background-color: transparent;
 }
