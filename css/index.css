@@ -144,9 +144,10 @@ td {
 }
 
 .about-img__content {
+   position: relative;
+   right: 140px;
+   top: 60px;
    z-index: 1;
-   /*!!!!!*/
-
 }
 
 .about__title {
@@ -352,26 +353,215 @@ td {
 
 /*our-blog*/
 .our-blog {
-   height: 860px;
+   height: 865px;
    display: flex;
-   justify-content: center;
    align-items: center;
    flex-direction: column;
 }
-.our-blog__inner{
+
+.our-blog__inner {
    display: flex;
    flex-direction: row;
+   margin-top: 100px;
+   margin-bottom: 180px;
 }
-.our-blog__content{
+
+.our-blog__content {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   position: relative;
+   top: 80px;
+}
+
+.our-blog__title {
+   font-size: 50px;
+   margin-top: 0;
+   margin-bottom: 60px;
+}
+
+.our-blog__subtitle {
+   margin-top: 50px;
+   font-size: 30px;
+   margin-bottom: 15px;
+   text-align: center;
+}
+
+.our-blog__content-time {
+   text-align: left;
+   margin-left: 65px;
+   margin-bottom: 40px;
+}
+
+.our-blog__content-text {
+   width: 480px;
+   height: 130px;
+   margin-left: 120px;
+   margin-top: 0px;
+   font-size: 18px;
+   line-height: 35px;
+}
+
+.our-blog__content-text::after {
+   content: url(/img/our_blog/Arrow.png);
+   margin-left: 10px;
+}
+
+.our-blog_link {
+   font-size: 24px;
+   color: #0aa566;
+}
+
+.our-blog_link--icon {
+   position: relative;
+   right: 10px;
+   top: 5px;
+
+}
+
+/* instagram */
+.instagram-list {
+   margin-top: 0;
+   display: flex;
+   flex-direction: row;
+   margin-bottom: 10px;
+}
+
+.instagram__list-item {
+   position: relative;
+   width: 20%;
+}
+
+.instagram__img-icon {
+   position: absolute;
+   bottom: 25px;
+   right: 25px;
+}
+
+/* footer */
+.footer-top {
+   background-color: #f6b03f;
+   height: 375px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.footer__logo {
+   margin-left: 100px;
+}
+
+.information__list-title {
+   font-size: 26px;
+   margin-bottom: 45px;
+}
+
+.information__list-item {
+   font-size: 18px;
+   margin-bottom: 20px;
+}
+
+.information__list-link {
+   color: #6d450c;
+}
+
+.payment__list-title {
+   margin-bottom: 45px;
+   font-size: 26px;
+}
+
+.payment__list-item {
+   margin-bottom: 20px;
+   display: flex;
+   align-items: center;
+}
+
+.payment__list-link {
+   margin-right: 15px;
+}
+
+.miss-out {
+   margin-right: 100px;
+}
+
+.miss-out__list-title {
+   margin-bottom: 45px;
+   font-size: 26px;
+}
+
+.miss-out__form {
+   color: #6d450c;
+   font-size: 17px;
+   background-color: #ffffff;
+   border-width: 0;
+   border-radius: 30px;
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   -ms-border-radius: 30px;
+   -o-border-radius: 30px;
+   width: 495px;
+   height: 60px;
+   background-image: url(/img/footer/btnfooterIcon.png);
+   background-repeat: no-repeat;
+   padding-left: 65px;
+   box-sizing: border-box;
+   background-position: 25px center;
+}
+
+.miss-out__form::placeholder {
+   color: #6d450c;
+}
+
+.miss-out__list-follow{
+   padding-left: 120px;
+   margin-top: 15px;
+}
+.follow__arrow{
+   margin-right:15px;
+}
+.miss-out__icon{
+   margin-left: 30px;
+}
+
+.footer-bottom {
+   height: 60px;
+   background-color: #6e2b1a;
+   position: relative;
    display: flex;
    justify-content: center;
    align-items: center;
-   flex-direction: column;;
 }
-.our-blog__content-text{
-   width: 480px;
-   height: 130px;
+
+.footer-bottom__text {
+   color: #9a6a62;
+   font-size: 13px;
 }
-.our-blog__content-text::after{
-   content: url(/img/our_blog/Arrow.png);
+
+.go-top {
+   position: absolute;
+   right: 50px;
+   bottom: 10px;
+}
+
+.go-top__link {
+   color: #ffffff;
+   font-size: 16px;
+}
+
+.go-top__link--arrow {
+   background-color: #f2662f;
+   display: inline-block;
+   width: 50px;
+   height: 50px;
+   text-align: center;
+   line-height: 60px;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+   position: relative;
+   right: -10px;
+   bottom: 30px;
 }
