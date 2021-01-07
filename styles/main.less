@@ -1,3 +1,4 @@
+// out: ./main.css, compress: true, sourceMap: true
 @font-face {
    font-family: Muli-Regular;
    src: url(/assets/fonts/Muli-Regular.woff);
@@ -32,6 +33,7 @@ html,
 body {
    font-family: Muli-Regular;
    color: white;
+   font-size: 10px;
 }
 
 .text--bold {
@@ -94,3 +96,9 @@ body {
    border: 2px solid white;
    background-color: transparent;
 }
+
+/* ------blocks----- */
+
+@import "./blocks/_header.less";
+@import "./blocks/_smoothies.less";
+@import "./blocks/_about.less";
