@@ -251,7 +251,7 @@ td {
    height: 730px;
 }*/
 
-.products__list {
+/* .products__list {
    margin-top: 0;
    display: flex;
    justify-content: space-between;
@@ -260,9 +260,9 @@ td {
 }
 
 .products__item {
-   width:
+   width: */
       /* 480px*/
-      25%;
+      /* 25%;
    height: 730px;
    display: flex;
    align-items: center;
@@ -297,7 +297,7 @@ td {
 
 .products--turmeric {
    background-color: #c54c19;
-}
+} */
 
 /*our-story*/
 /*.our-story {
