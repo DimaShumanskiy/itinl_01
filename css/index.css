@@ -304,7 +304,7 @@ td {
    height: 880px;
 }*/
 
-.our-story__inner {
+/* .our-story__inner {
    height: 880px;
    display: flex;
    justify-content: center;
@@ -316,28 +316,28 @@ td {
    width: 512px;
    font-size: 18px;
    line-height: 35px;
-}
+} */
 
-.our-story__title {
+/* .our-story__title {
    font-size: 50pt;
    margin-bottom: 60px;
-}
+} */
 
-.our-story__description {
+/* .our-story__description {
    font-size: 18px;
    margin-bottom: 60px;
    margin-top: 0;
 
-}
+} */
 
-.our-storybtn__btn {
+/* .our-storybtn__btn {
    width: 300px;
    height: 60px;
    border-width: 0;
    font-size: 18px;
-}
+} */
 
-.our-story__img {
+/* .our-story__img {
    position: relative;
    right: 40px;
 }
@@ -347,10 +347,10 @@ td {
    bottom: 380px;
    left: 130px;
    z-index: 1;
-}
+} */
 
 /*testimonials*/
-.testimonials {
+/* .testimonials {
    position: relative;
 }
 
@@ -412,10 +412,10 @@ td {
 
 .testimonials-arrow__left {
    margin-right: 95px;
-}
+} */
 
 /*our-blog*/
-.our-blog {
+/* .our-blog {
    height: 865px;
    display: flex;
    align-items: center;
@@ -480,10 +480,10 @@ td {
    right: 10px;
    top: 5px;
 
-}
+} */
 
 /* instagram */
-.instagram-list {
+/* .instagram-list {
    margin-top: 0;
    display: flex;
    flex-direction: row;
@@ -500,16 +500,15 @@ td {
    position: absolute;
    bottom: 25px;
    right: 25px;
-}
+} */
 
 /* footer */
-.footer-top {
+/* .footer-top {
    background-color: #f6b03f;
    height: 375px;
    display: flex;
    flex-direction: row;
    justify-content: space-between;
-   /* align-items: center; */
 }
 
 .footer__logo {
@@ -533,9 +532,9 @@ td {
 
 .information__list-link {
    color: #6d450c;
-}
+} */
 
-.payment__list {
+/* .payment__list {
    margin-top: 75px;
 }
 
@@ -552,9 +551,9 @@ td {
 
 .payment__list-link {
    margin-right: 15px;
-}
+} */
 
-.miss-out {
+/* .miss-out {
    margin-right: 100px;
 }
 
@@ -605,9 +604,9 @@ td {
 
 .miss-out__link {
    margin-left: 30px;
-}
+} */
 
-.footer-bottom {
+/* .footer-bottom {
    height: 60px;
    background-color: #6e2b1a;
    position: relative;
@@ -647,7 +646,7 @@ td {
    position: relative;
    right: -10px;
    bottom: 30px;
-}
+} */
 
   /* @media(max-width:1550px) { /*.header__burger-btn {
    display: block;

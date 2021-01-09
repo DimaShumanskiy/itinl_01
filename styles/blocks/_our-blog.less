@@ -1,1 +1,62 @@
 // main ./../main.less
+.our-blog {
+   height: 865px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   .our-blog__inner {
+      display: flex;
+      flex-direction: row;
+      margin-top: 100px;
+      margin-bottom: 180px;
+      .our-blog__title {
+         font-size: 50px;
+         margin-top: 0;
+         margin-bottom: 60px;
+      }
+      .our-blog__content {
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+         position: relative;
+         top: 80px;
+         .our-blog__subtitle {
+            margin-top: 50px;
+            font-size: 30px;
+            margin-bottom: 15px;
+            text-align: center;
+         }
+         .our-blog__content-time {
+            text-align: left;
+            margin-left: 65px;
+            margin-bottom: 40px;
+         }
+         
+         .our-blog__content-text {
+            width: 480px;
+            height: 130px;
+            margin-left: 120px;
+            margin-top: 0px;
+            font-size: 18px;
+            line-height: 35px;
+            .our-blog__content-text::after {
+               content: url(/img/our_blog/Arrow.png);
+               margin-left: 10px;
+            }
+         }
+      }
+      
+   
+   }
+   .our-blog_link {
+      font-size: 24px;
+      color: #0aa566;
+      .our-blog_link--icon {
+         position: relative;
+         right: 10px;
+         top: 5px;
+      
+      }
+   }
+
+}

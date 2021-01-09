@@ -166,16 +166,7 @@
          margin: 0;
       }
 
-      .personal__list::after {
-         content: url(/img/header/Lineheader.png);
-         position: absolute;
-         top: 0px;
-         left: 200px;
-
-         @media (max-width:450px) {
-            display: none;
-         }
-      }
+      
    
 
    .personal__link-cart {
@@ -232,6 +223,16 @@
          line-height: 41px;
          text-align: center;
          background-color: white;
+      }
+   }
+   .personal__list::after {
+      content: url(/img/header/Lineheader.png);
+      position: absolute;
+      top: 0px;
+      left: 200px;
+
+      @media (max-width:450px) {
+         display: none;
       }
    }
 }
