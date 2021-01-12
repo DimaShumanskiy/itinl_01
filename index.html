@@ -6,6 +6,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <link rel="stylesheet" href="/css/normalize.css">
    <link rel="stylesheet" href="/styles/main.css">
+   <link rel="stylesheet" href="/libraries/WOW-master/css/libs/animate.css">
    <!-- <link rel="stylesheet" href="/css/index.css"> -->
    <title>Document</title>
 </head>
@@ -80,7 +81,7 @@
       <div class="header-content">
          <div class="header__content-inner">
             <div class="header__btn-wrapper">
-               <button class="btn btn--green header_btn">Shop Now
+               <button class="btn btn--green header_btn ">Shop Now
                   <img class="arrow arrow--yelow" src="/img/header/Arrow.png" alt=""></button>
             </div>
          </div>
@@ -88,8 +89,8 @@
    </header>
    <section class="smoothies">
       <div class="smoothies-top">
-         <h1 class="smoothies__title text--yelow text--extrabold">What are these smoothies?</h1>
-         <p class="smoothies__description text--black">
+         <h1 class="smoothies__title text--yelow text--extrabold wow bounceInUp">What are these smoothies?</h1>
+         <p class="smoothies__description text--black wow bounceInLeft">
             A smoothie is a drink made from pureed raw fruit, vegetables, and
             sometimes dairy products (milk, yogurt, ice-cream or cottage cheese),
             typically using a blender. Smoothies may be made using other
@@ -360,6 +361,11 @@
          </div>
       </div>
    </footer>
+
+   <script src="/libraries/WOW-master/dist/wow.min.js"></script>
+   <script>
+   new WOW().init();
+   </script>
 </body>
 
 </html>
