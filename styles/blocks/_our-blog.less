@@ -1,5 +1,6 @@
 // main ./../main.less
 .our-blog {
+   transition: .3s;
    height: 865px;
    display: flex;
    align-items: center;
@@ -49,6 +50,7 @@
    
    }
    .our-blog_link {
+      transition: .3s;
       font-size: 24px;
       color: #0aa566;
       .our-blog_link--icon {
@@ -57,6 +59,9 @@
          top: 5px;
       
       }
+   }
+   .our-blog_link:hover{
+      transform: scale(1.1);
    }
 
 }

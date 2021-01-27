@@ -20,20 +20,29 @@
       margin-bottom: 60px;
       margin-top: 0;
    }
+
    .our-storybtn__btn {
       width: 300px;
       height: 60px;
       border-width: 0;
       font-size: 18px;
+      transition: .3s;
    }
-   .our-story__img {
+
+   .our-storybtn__btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+   }
+}
+
+.our-story__img {
+   position: relative;
+   right: 40px;
+
+   .our-story__img-text {
       position: relative;
-      right: 40px;
-      .our-story__img-text {
-         position: relative;
-         bottom: 380px;
-         left: 130px;
-         z-index: 1;
-      }
+      bottom: 380px;
+      left: 130px;
+      z-index: 1;
    }
 }

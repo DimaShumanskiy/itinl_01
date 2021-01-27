@@ -12,7 +12,7 @@
 </head>
 
 <body>
-   <header class="header">
+   <header class="header" id="top">
       <div class="header__top">
          <div class="header__top-inner">
             <bottom class="header__burger-btn">
@@ -20,23 +20,23 @@
             </bottom>
             <div class="header__navigation">
                <nav class="menu">
-                  <ul class="menu__list text--bold">
+                  <ul class="menu__list text--bold wow bounceInLeft">
                      <li class="menu__item">
                         <a class="menu__link" href="#shop">Shop</a></li>
                      <li class="menu__item">
-                        <a class="menu__link" href="#">Home</a></li>
+                        <a class="menu__link" href="#home">Home</a></li>
                      <li class="menu__item">
-                        <a class="menu__link" href="#">Story</a></li>
+                        <a class="menu__link" href="#story">Story</a></li>
                      <li class="menu__item">
-                        <a class="menu__link" href="#">Abaut</a></li>
+                        <a class="menu__link" href="#abaut">Abaut</a></li>
                      <li class="menu__item">
                         <a class="menu__link" href="#blog">Blog</a></li>
                      <li class="menu__item">
-                        <a class="menu__link" href="#">Testimonials</a></li>
+                        <a class="menu__link" href="#testimonials">Testimonials</a></li>
                   </ul>
                </nav>
-               <div class="header__personal-social">
-                  <div class="personal">
+               <div class="header__personal-social wow bounceInRight">
+                  <div class="personal ">
                      <ul class="personal__list">
                         <li class="personal__list-item">
                            <a class="personal__link" href="">
@@ -81,13 +81,13 @@
       <div class="header-content">
          <div class="header__content-inner">
             <div class="header__btn-wrapper">
-               <button class="btn btn--green header_btn ">Shop Now
+               <button class="btn btn--green header_btn wow bounceInUp">Shop Now
                   <img class="arrow arrow--yelow" src="/img/header/Arrow.png" alt=""></button>
             </div>
          </div>
       </div>
    </header>
-   <section class="smoothies">
+   <section class="smoothies" id="home">
       <div class="smoothies-top">
          <h1 class="smoothies__title text--yelow text--extrabold wow bounceInUp">What are these smoothies?</h1>
          <p class="smoothies__description text--black wow bounceInLeft">
@@ -101,7 +101,7 @@
          </p>
       </div>
       <div class="smoothies__content">
-         <table class="smoothies__table text--extrabold text--red">
+         <table class="smoothies__table text--extrabold text--red wow bounceInUp">
             <tr>
                <th><img src="/img/smoothies/plant based.png" alt="" class="table__icon" />
                   <figcaption>Plant Based</figcaption>
@@ -133,11 +133,11 @@
          </table>
       </div>
    </section>
-   <section class="about">
+   <section class="about" id="abaut">
       <div class="about-img__content">
-         <img class="about-img" src="/img/about/about img.png" alt="">
+         <img class="about-img wow bounceInLeft" src="/img/about/about img.png" alt="">
       </div>
-      <div class="about-content">
+      <div class="about-content wow bounceInRight">
          <div class="about__content-title">
             <h2 class="about__title text--extrabold ">
                What makes Smoothie an <span class="text--green">awesome drink?</span>
@@ -166,7 +166,7 @@
    </section>
    <section class="products" id="shop">
       <div class="products-inner">
-         <ul class="products__list">
+         <ul class="products__list wow bounceIn">
             <li class="products__item products--dark">
                <img class="products__img" src="/img/products/Products dark.png" alt="Dark">
                <h3 class="products__title text--bold"> Dark Chocolate Smoothie</h3> <span class="text--italic">
@@ -198,9 +198,9 @@
          </ul>
       </div>
    </section>
-   <section class="our-story">
+   <section class="our-story" id="story">
       <div class="our-story__inner">
-         <div class="our-story__content">
+         <div class="our-story__content wow bounceInLeft">
             <h1 class="our-story__title text--yelow text--extrabold">Our story</h1>
             <p class="our-story__description text--black">As products typically using raw fruits or vegetables,
                smoothies include dietary fiber (e.g. pulp, skin, and seeds)
@@ -211,24 +211,24 @@
                   <img class="arrow--yelow" src="/img/about/Arrow.png" alt=""></button>
             </div>
          </div>
-         <div class="our-story__img">
+         <div class="our-story__img wow bounceInRight">
             <img src="/img/our-story/text img.png" alt="" class="our-story__img-text">
             <img src="/img/our-story/glass.png" alt="" class="our-story__img-glass">
          </div>
       </div>
    </section>
-   <section class="testimonials">
+   <section class="testimonials" id="testimonials">
       <div class="testimonials__content">
-         <h1 class="testimonials__title text--yelow text--extrabold">Why clients <span class="text--red">
+         <h1 class="testimonials__title text--yelow text--extrabold wow bounceInDown">Why clients <span class="text--red">
                LOVE</span> us?</h1>
-         <div class="testimonials__description">
-            <p class="testimonials__content-text">
+         <div class="testimonials__description ">
+            <p class="testimonials__content-text wow bounceInLeft">
                ”Smoothie is great. I don't know what else to say. I will let my mum know about this, she could really
                make
                use
                of Smoothie! Smoothie saved my business.”
                <small class="testimonials__content-row text--extrabold-italic">- from Santa Monica, CA</small></p>
-            <img class="testimonials__img" src="/img/testimonials/Testimonials icon.png" alt="">
+            <img class="testimonials__img wow bounceInRight" src="/img/testimonials/Testimonials icon.png" alt="">
          </div>
          <div class="testimonials-arrow">
             <img class="testimonials-arrow__left" src="/img/testimonials/TestimonialsArrowleft.png" alt="">
@@ -240,11 +240,11 @@
    </section>
    <section class="our-blog" id="blog">
       <div class="our-blog__inner">
-         <div class="our-blog__left-content">
+         <div class="our-blog__left-content wow bounceInLeft">
             <h1 class="our-blog__title text--extrabold text--yelow ">Our Blog</h1>
             <img src="/img/our_blog/Our Blog Img.png" alt="" class="our-blog__img">
          </div>
-         <div class="our-blog__content">
+         <div class="our-blog__content wow bounceInRight">
             <img src="/img/our_blog/Our Blog Line.png" alt="" class="our-blog__img-line">
             <h2 class="our-blog__subtitle text--extrabold text--red">ASAFOETIDA - THE NEXT TURMERIC?</h2>
             <time class="our-blog__content-time text--black">Jun 16, 2020</time>
@@ -262,7 +262,7 @@
    </section>
    <section class="instagram">
       <div class="instagram-inner">
-         <ul class="instagram-list">
+         <ul class="instagram-list wow bounceIn">
             <li class="instagram__list-item"><a class="instagram__link" href="http://"><img
                      src="/img/instagram/Instagram img1.png" alt="" class="instagram__img"><img
                      src="/img/instagram/Instagram img icon.png" alt="" class="instagram__img-icon"></a>
@@ -289,9 +289,9 @@
    <footer class="footer">
       <div class="footer-top">
          <div class="footer__logo">
-            <a class="footer__link-logo" href=""><img src="/img/footer/Logo f.png" alt="" class="footer__logo-img"></a>
+            <a class="footer__link-logo wow bounceInLeft" href=""><img src="/img/footer/Logo f.png" alt="" class="footer__logo-img"></a>
          </div>
-         <div class="footer-information">
+         <div class="footer-information wow bounceInUp">
             <ul class="information__list">
                <li class="information__list-item text--extrabold ">Information</li>
                <li class="information__list-item text--bold text--brown"><a class="information__list-link"
@@ -304,7 +304,7 @@
                      href="">Privacy Policy</a></li>
             </ul>
          </div>
-         <div class="payment">
+         <div class="payment wow bounceInUp">
             <ul class="payment__list">
                <li class="payment__list-item text--extrabold"> Payment</li>
                <li class="payment__list-item">
@@ -333,7 +333,7 @@
                </li>
             </ul>
          </div>
-         <div class="miss-out">
+         <div class="miss-out wow bounceInRight">
             <ul class="miss-out__list">
                <li class="miss-out__list-item text--bold ">Don’t miss out!</li>
                <li class="miss-out__list-item"><input class="miss-out__form text--bold text--brown" type="text"
@@ -354,9 +354,9 @@
       </div>
       <div class="footer-bottom">
          <h6 class="footer-bottom__text ">© 2020. All Rights Reserved. </h6>
-         <div class="go-top">
-            <a href="" class="go-top__link text--bold text--brown ">Go top</a>
-            <a href="" class="go-top__link--arrow"><img src="/img/footer/Arrow go top.png" alt=""
+         <div class="go-top wow bounceInRight">
+            <a href="#top" class="go-top__link text--bold text--brown ">Go top</a>
+            <a href="#top" class="go-top__link--arrow"><img src="/img/footer/Arrow go top.png" alt=""
                   class="arrow--go-top"></a>
          </div>
       </div>
